@@ -1,0 +1,11 @@
+<export>
+</export>
+<library   name="ElectroWeakAnalysisVPlusJets_plugins" file="*.cc">
+  <flags   EDM_PLUGIN="1"/>
+  <use name="RecoCaloTools/Selectors"/>
+  <use name="DataFormats/EgammaCandidates"/>
+  <use name="DataFormats/PatCandidates"/>
+  <use name="RecoEgamma/EgammaTools"/>
+  <use name="RecoEcal/EgammaCoreTools"/>
+  <use name="CommonTools/UtilAlgos"/>
+</library>
